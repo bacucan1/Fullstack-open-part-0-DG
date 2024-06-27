@@ -1,5 +1,3 @@
-Sequence Diagram 0.4
-
 sequenceDiagram
     Alice->>John: Hello John, how are you?
     John-->>Alice: Great!
