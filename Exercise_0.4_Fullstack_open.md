@@ -12,7 +12,7 @@ sequenceDiagram
     Note right of browser: The browser sends a solicitude GET with code status 304
     activate server
     server-->>browser: the JavaScript file
-    Note right of server: The server executes js file using "new_note" file to generate json file
+    Note left of server: The server executes js file using "new_note" file to generate json file
     deactivate server
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
     Note right of browser: The browser starts executing the JavaScript code that fetches the JSON from the server
