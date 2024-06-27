@@ -20,6 +20,7 @@ sequenceDiagram
     Note right of browser: The browser sends a solicitude GET with code status 200 to the server
     activate server
     server-->>browser: [{ "content": "Hello world", "date": "Thu, 27 Jun 2024 22:45:47 GMT" }, ... ]
+    Note left of server: Server sends all information obtain after execute js file
     deactivate server
 
 ```
